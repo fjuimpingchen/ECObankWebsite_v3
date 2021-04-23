@@ -12,7 +12,7 @@ body {
     overflow: hidden;
     background-color: #C1CBD7;
   }
-  
+
 .topnav a {
     float: right;
     color: #465765;
@@ -27,12 +27,12 @@ body {
 .topnav h3{
     margin-left: 2em;
 }
-  
+
 .topnav a:hover {
     background-color: #ddd;
     color: black;
   }
-  
+
 .topnav a.active {
     background-color: #4CAF50;
     color: white;
@@ -77,7 +77,7 @@ h1{
 
 .wrapper2 {
     display: grid;
-    grid-template-columns: auto auto auto auto auto; 
+    grid-template-columns: auto auto auto auto auto;
     margin-top: 3em;
     margin-left: 20em;
   }
@@ -117,7 +117,7 @@ h1{
 
 .rectangle_box{
     width: 80%;
-    display:block; 
+    display:block;
     margin:auto;
     background-color: white;
     border:5px #CCCCCC solid;
@@ -139,7 +139,7 @@ h1{
     padding: 20px;
     background-color: #F0EDE8;
   }
-  
+
 .item {
     flex: 1;
     margin: 3px;
@@ -188,7 +188,7 @@ h1{
     padding: 10px;
     /* background-color: white; */
   }
-  
+
 .item_3 {
     flex: 1;
     margin: 0px;
@@ -216,7 +216,7 @@ h1{
 .blockquote1{
     border-left: 1px solid gray;;
     margin: 0px 30px 75px 10px;
-    padding-left: 20px; 
+    padding-left: 20px;
 }
 
 .blockquote2{
@@ -287,84 +287,84 @@ h1{
 .confirm_frame{
   background-color: white;
   border:5px #CCCCCC solid;
-  display:block; 
-  margin-left: 7em; 
-  margin-right: 6em; 
-  margin-top: -2em; 
+  display:block;
+  margin-left: 7em;
+  margin-right: 6em;
+  margin-top: -2em;
   border-radius: 0.5em;
   padding: 3em;
 }
 
-.mwt_border { 
-	width : 120px ; 
-	height : 1em ; 
-	text-align : left ; 
-	background : #fff ; 
-	position : relative ; 
-	border :  solid  1px  #333 ; 
-	margin : 30px ; 
-	padding : 30px ; 
+.mwt_border {
+	width : 120px ;
+	height : 1em ;
+	text-align : left ;
+	background : #fff ;
+	position : relative ;
+	border :  solid  1px  #333 ;
+	margin : 30px ;
+	padding : 30px ;
   margin-left: 15em;
   margin-top: 5em;
-} 
-
-.mwt_border_r { 
-	width : 120px ; 
-	height : 1em ; 
-	text-align : left ; 
-	background : #DEEBF7 ; 
-	position : relative ; 
-	border :  solid  1px  #333 ; 
-	margin : 30px ; 
-	padding : 30px ; 
-  margin-left: 48em;
-  margin-top: 2em;
-} 
- 
-/*箭頭左*/ 
-.mwt_border .arrow_l_int { 
-	width : 0px ; 
-	height : 0px ; 
-	border-width : 15px ; 
-	border-style : solid ; 
-	border-color : transparent  #333  transparent   transparent  ; 
-	position : absolute ; 
-	top : 20% ; 
-	left : -30px ;
-} 
-/*箭頭左-邊框*/ 
-.mwt_border .arrow_l_out { 
-	width : 0px ; 
-	height : 0px ; 
-	border-width : 15px ; 
-	border-style : solid ; 
-	border-color : transparent  #fff  transparent  transparent  ; 
-	position : absolute ; 
-	top : 20% ; 
-	left : -29px ; 
 }
 
-/*箭头右*/ 
-.mwt_border_r .arrow_r_int { 
-	width : 0px ; 
-	height : 0px ; 
-	border-width : 15px ; 
-	border-style : solid ; 
-	border-color : transparent  transparent transparent  #333 ; 
-	position : absolute ; 
-	top : 20% ; 
-	right : -30px ; 
-} 
-/*箭头右-边框*/ 
-.mwt_border_r .arrow_r_out { 
-	width : 0px ; 
-	height : 0px ; 
-	border-width : 15px ; 
-	border-style : solid ; 
-	border-color : transparent  transparent transparent  #DEEBF7 ; 
-	position : absolute ; 
-	top : 20% ; 
-	right : -29px ; 
+.mwt_border_r {
+	width : 120px ;
+	height : 1em ;
+	text-align : left ;
+	background : #DEEBF7 ;
+	position : relative ;
+	border :  solid  1px  #333 ;
+	margin : 30px ;
+	padding : 30px ;
+  margin-left: 48em;
+  margin-top: 2em;
+}
+
+/*箭頭左*/
+.mwt_border .arrow_l_int {
+	width : 0px ;
+	height : 0px ;
+	border-width : 15px ;
+	border-style : solid ;
+	border-color : transparent  #333  transparent   transparent  ;
+	position : absolute ;
+	top : 20% ;
+	left : -30px ;
+}
+/*箭頭左-邊框*/
+.mwt_border .arrow_l_out {
+	width : 0px ;
+	height : 0px ;
+	border-width : 15px ;
+	border-style : solid ;
+	border-color : transparent  #fff  transparent  transparent  ;
+	position : absolute ;
+	top : 20% ;
+	left : -29px ;
+}
+
+/*箭头右*/
+.mwt_border_r .arrow_r_int {
+	width : 0px ;
+	height : 0px ;
+	border-width : 15px ;
+	border-style : solid ;
+	border-color : transparent  transparent transparent  #333 ;
+	position : absolute ;
+	top : 20% ;
+	right : -30px ;
+}
+/*箭头右-边框*/
+.mwt_border_r .arrow_r_out {
+	width : 0px ;
+	height : 0px ;
+	border-width : 15px ;
+	border-style : solid ;
+	border-color : transparent  transparent transparent  #DEEBF7 ;
+	position : absolute ;
+	top : 20% ;
+	right : -29px ;
 }
 
 .headshot{
